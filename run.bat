@@ -1,4 +1,4 @@
-call venv\scripts\activate
+rem call venv\scripts\activate
 pytest -v -m "sanity" --html=./Reports/report_chrome.html testCases/ --browser chrome
 rem pytest -v -m "sanity" --html=./Reports/report_firefox.html testCases/ --browser firefox
 
